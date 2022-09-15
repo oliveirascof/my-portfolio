@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -68,9 +68,11 @@
 .grid {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 800px;
+  margin: 80px;
+
 }
 
 .card {
@@ -81,8 +83,15 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
+  transition: color 0.20s ease, border-color 0.20s ease;
   max-width: 300px;
+  
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card:hover,
@@ -106,6 +115,12 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.spanFooter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
