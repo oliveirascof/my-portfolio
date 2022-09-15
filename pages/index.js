@@ -2,23 +2,26 @@ import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MyLogo from '../src/util/MyLogo'
-import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className={styles.container}>
 
-      <div className={styles.logo}>   
-        <MyLogo />
-      </div>
-
       <Head>
-        <title>Portifolio Felipe Oliveira</title>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta name="description" content="Portifólio Felipe Oliveira NextJS" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Felipe Oliveira</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href={"https://fonts.googleapis.com/css2?family=Roboto&display=swap"} rel="stylesheet"/>
       </Head>
 
       <main className={styles.main}>
+
+      <div className={styles.logo}>   
+        <MyLogo />
+      </div>
 
         <h1 className={styles.title}>
           Felipe Oliveira
@@ -34,11 +37,11 @@ export default function Home() {
 
           <a className={styles.card} href="https://github.com/oliveirascof" target="_blank" rel="noreferrer">
             <h2 >Meus projetos</h2>
-            <p>Aqui estão localizados meus projetos</p>
+            <p>Aqui estão meus projetos</p>
           </a>
 
           <a className={styles.card}>
-            <h2>Sobre mim</h2>
+            <h2>Sobre</h2>
             <p>Conheça um pouco sobre mim.</p>
           </a>
 
@@ -49,10 +52,12 @@ export default function Home() {
 
           <a className={styles.card}>
             <h2>Contato</h2>
-            <p> Entre em contato comigo. </p>
+            <p> Entre em contato comigo.  </p>
           </a>
 
-        </div>
+          </div>
+
+
         </div>
       </main>
 

@@ -47,6 +47,8 @@
 .title,
 .description {
   text-align: center;
+  margin: 0;
+  margin-top: 0;
 }
 
 .description {
@@ -114,7 +116,7 @@
 .logo {
   display: flex;
   height: 1em;
-  margin: 10em;
+  margin: 6rem;
   align-items: center;
   justify-content: center;
 }
