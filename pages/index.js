@@ -1,10 +1,17 @@
+import React from 'react'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import MyLogo from '../src/util/MyLogo'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+
+      <div className={styles.logo}>   
+        <MyLogo />
+      </div>
+
       <Head>
         <title>Portifolio Felipe Oliveira</title>
         <meta name="description" content="Portifólio Felipe Oliveira NextJS" />
@@ -12,10 +19,6 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-
-        <a>
-          <Image loader="../public/logo_felipe.jpg " alt="Logo" width={200} height={200}/>
-        </a>
 
         <h1 className={styles.title}>
           Felipe Oliveira
@@ -46,7 +49,7 @@ export default function Home() {
 
           <a className={styles.card}>
             <h2>Contato</h2>
-            <p> Entre em contato comigo hoje mesmo. </p>
+            <p> Entre em contato comigo. </p>
           </a>
 
         </div>
