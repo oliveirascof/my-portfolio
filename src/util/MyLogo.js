@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Logo = require('../assets/logo_felipe.jpg')
 
-function MyImage() {
+export default function MyImage() {
   return (
     <Image
         src={Logo}
@@ -12,4 +12,3 @@ function MyImage() {
   )
 }
     
-export default MyImage

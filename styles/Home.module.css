@@ -1,12 +1,14 @@
 .container {
   padding: 0 2rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
   min-height: 100vh;
   padding: 10rem 1;
   flex: 1;
-  flex-direction: column;
+  flex-direction:column;
   justify-content: center;
   align-items: center;
 }
@@ -55,6 +57,7 @@
   margin: 1rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #004492;
 }
 
 .code {
@@ -62,8 +65,7 @@
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: "Roboto", sans-serif;
 }
 
 .grid {
@@ -72,7 +74,7 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   max-width: 800px;
-  margin: 80px;
+  margin: 40px;
 
 }
 
@@ -86,13 +88,6 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 200px;
-  
-}
-
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .card:hover,
@@ -115,10 +110,13 @@
 
 .logo {
   display: flex;
-  height: 1em;
   margin: 6rem;
+  margin-bottom: 2em;
   align-items: center;
   justify-content: center;
+  border: 0px solid #111;
+  margin-left: 45%;
+  margin-right: 45%;
 }
 
 .spanFooter {

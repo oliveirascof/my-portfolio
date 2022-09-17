@@ -19,23 +19,24 @@ export default function Home() {
 
       <main className={styles.main}>
 
-      <div className={styles.logo}>   
-        <MyLogo />
-      </div>
+        <div className={styles.logo}>   
+          <MyLogo /> 
+        </div>
 
-        <h1 className={styles.title}>
+
+        <h1 classNameName={styles.title}>
           Felipe Oliveira
         </h1>
 
-        <p className={styles.description}>
+        <p classNameName={styles.description}>
           never stop learn
         </p>
 
-        <div className={styles.box}>
 
-        <div className={styles.grid}>
+        <div classNameName={styles.grid}>
 
-          <a className={styles.card} href="https://github.com/oliveirascof" target="_blank" rel="noreferrer">
+          <a className={styles.card}
+            href="https://github.com/oliveirascof" target="_blank" rel="noreferrer">
             <h2 >Meus projetos</h2>
             <p>Aqui estão meus projetos</p>
           </a>
@@ -55,11 +56,11 @@ export default function Home() {
             <p> Entre em contato comigo.  </p>
           </a>
 
-          </div>
-
-
         </div>
+
+
       </main>
+
 
       <footer className={styles.footer}>
         
@@ -70,6 +71,7 @@ export default function Home() {
           </span>
           
       </footer>
+
     </div>
   )
 }
